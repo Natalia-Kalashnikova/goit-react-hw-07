@@ -1,0 +1,10 @@
+.input {
+  width: 310px;
+  padding: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .label {
+    color: #ffbf47;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  width: 320px;
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.text {
+  margin: 0;
+
+  font-size: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    border: 1px solid #ffbf47;
+  }
+  .icon {
+    color: #ffbf47;
+  }
+}

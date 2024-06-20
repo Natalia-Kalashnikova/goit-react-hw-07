@@ -13,7 +13,7 @@ const SearchBox = () => {
   };
 
   return (
-    <div className={css.input}>
+    <div className={css.inputWrapper}>
       <p className={css.label}>Find contacts by name</p>
       <input
         className={css.input}
@@ -24,5 +24,6 @@ const SearchBox = () => {
     </div>
   );
 }
+
 
 export default SearchBox;
